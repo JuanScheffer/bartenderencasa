@@ -1,0 +1,14 @@
+/*Archivo principal- Importación de partials*/
+@import "./utilities/variables";
+@import "./utilities/mixings";
+@import "./normalize/reset.scss";
+@import "./views/queries.scss";
+@import "./general/header.scss";
+@import "./general/footer";
+@import "./general/main_pages";
+@import "./layouts/bootstrap";
+@import "./layouts/grids";
+@import "./components/form";
+@import "./components/iframes";
+@import "./components/images";
+@import "./components/titles";

@@ -1,0 +1,154 @@
+/**Media desktop first--------------------------------------------------------------------------------------------**/
+
+/**Para Tablets, esta medida o valores menores:**/
+@media screen and (max-width:1024px) {
+
+    header div {
+        width: 20%;
+
+        img {
+            padding: 2%;
+            width: 100%;
+        }
+    }
+
+    nav {
+        width: 80%;
+    }
+
+    .navegacion {
+        li {
+            a {
+                padding: 2%;
+                border: solid map-get($color_detalle, dorado);
+                /*aplicación de map*/
+                font-size: 1rem;
+
+                &:hover {
+                    background-color: map-get($color_detalle, dorado);
+                    /*aplicación de map*/
+                    border: double 7px map-get($color_detalle, salmon);
+                    /*aplicación de map*/
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    /*Titulos sección principal*/
+    h1 {
+        padding: 3%;
+        font-size: 50px;
+    }
+
+    h2 {
+        padding: 3%;
+        font-size: 45px;
+    }
+
+    h3 {
+        padding: 3%;
+        font-size: 45px;
+    }
+
+    main {
+        section {
+            p {
+                padding: 7%;
+                font-size: 20px;
+            }
+        }
+    }
+
+    /*footer- pie de pagina*/
+
+    footer {
+        display: flex;
+        width: 100%;
+
+        div {
+            width: 40%;
+
+            img {
+                padding: 5%;
+                width: 40%;
+            }
+        }
+    }
+
+    .contacto {
+        font: {
+            size: 10px;
+            weight: bold;
+        }
+    }
+
+    i {
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+/**Para Celulares, esta medida o valores menores:**/
+@media screen and (max-width:479px) {
+
+    .navegacion {
+        li {
+            a {
+                padding: 1%;
+                border: solid map-get($color_detalle, dorado);
+                /*aplicación de map*/
+                font-size: 70%;
+            }
+        }
+    }
+
+    /*Titulos sección principal*/
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    main {
+        section {
+            p {
+                font-size: 3px;
+            }
+        }
+    }
+
+    /*footer- pie de pagina*/
+
+    footer {
+        div {
+            width: 40%;
+
+            img {
+                padding: 2%;
+                width: 50%;
+            }
+        }
+    }
+
+    .contacto {
+        font-size: 7px;
+        font-weight: bold;
+    }
+
+    i {
+        font-size: 20px;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/

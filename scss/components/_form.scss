@@ -1,0 +1,10 @@
+#formulario {
+    padding: 2%;
+    color: map-get($color_detalle, dorado);
+
+    font: {
+        size: 2rem;
+        style: italic;
+        weight: bolder;
+    }
+}

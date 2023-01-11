@@ -1,0 +1,64 @@
+/*Encabezado:logo y barra de navegación*/
+
+ul {
+    list-style-type: none;
+    /*Quita viñetas*/
+}
+
+a {
+    text-decoration: none;
+    /*Quita el subrayado del link url*/
+}
+
+header {
+    display: flex;
+    /*Vuelve flexibles a los hijos*/
+    background-color: $primary;
+    background-image: url(../assets/imagenes/trama.png);
+    background-size: cover;
+
+    div {
+        width: 20%;
+
+        /*logo ocupa el 20% del ancho, el resto la barra de navegación*/
+        img {
+            padding: 2%;
+            width: 40%;
+        }
+    }
+}
+
+nav {
+    width: 80%;
+    /*menu de navegación ocupa el 80% del ancho, el logo el 20%*/
+}
+
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    /*Si no hay espacio suficiente, pondrá los elementos por debajo*/
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+
+    li {
+        a {
+            padding: 2%;
+            background-color: $primary;
+            border: solid 1px map-get($color_detalle, dorado);
+            font: bold;
+            font-size: 2rem;
+            color: map-get($color_detalle, salmon);
+            /*aplicación de map*/
+
+
+            &:hover {
+                background-color: map-get($color_detalle, dorado);
+                border: double 4px map-get($color_detalle, salmon);
+                /*aplicación de map*/
+                color: $primary;
+            }
+
+        }
+    }
+}

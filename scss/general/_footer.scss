@@ -1,0 +1,57 @@
+/*footer- pie de pagina*/
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: $primary;
+    align-items: center;
+
+    div {
+        width: 40%;
+
+        a {
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            padding: 5%;
+            width: 25%;
+        }
+    }
+}
+
+/*Datos de contacto con la empresa:*/
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3%;
+    color: map-get($color_detalle, dorado);
+    /*aplicación de map*/
+
+    font: {
+        size: 1.5rem;
+        style: italic;
+    }
+}
+
+/*Logos redes sociales*/
+.redes_sociales {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+i {
+    font-size: 6rem;
+    color: map-get($color_detalle, salmon);
+    /*aplicación de map*/
+}
+
+.redes_sociales li a :hover {
+    color: map-get($color_detalle, dorado);
+    /*aplicación de map*/
+}

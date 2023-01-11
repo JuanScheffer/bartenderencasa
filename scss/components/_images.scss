@@ -1,0 +1,6 @@
+#imagen_formulario {
+    display: flex;
+    @include ancho (100%);
+    /*Aplicación de mixin*/
+    justify-content: center;
+}

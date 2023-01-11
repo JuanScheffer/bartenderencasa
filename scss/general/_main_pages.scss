@@ -1,0 +1,17 @@
+/*espacio principal de cada página*/
+main {
+    background-color: $secondary;
+
+    section {
+        p {
+            text-align: center;
+            padding: 7%;
+            font-size: 3rem;
+
+            font: normal;
+            color: map-get($color_detalle, dorado);
+            /*aplicación de map*/
+        }
+    }
+}
+

@@ -1,0 +1,29 @@
+/*Titulos con jerarquía*/
+
+h1 {
+    text-align: center;
+    background-color: $secondary; 
+    padding: 3%;
+    font-size: 6rem;
+    color: map-get($color_detalle,dorado); /*aplicación de map*/
+    font: bold;
+}
+
+h2 {
+    text-align: center;
+    background-color: $secondary;
+    padding: 3%;
+    font-size: 5rem;
+    color: map-get($color_detalle,dorado);/*aplicación de map*/
+    font: bold;
+}
+
+h3 {
+    text-align: center;
+    background-color: $primary;
+    padding: 3%;
+    font-size: 4rem;
+    color:map-get($color_detalle,salmon); /*aplicación de map*/
+    ;
+    font: bold;
+}

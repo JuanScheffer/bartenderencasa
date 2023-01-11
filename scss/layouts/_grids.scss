@@ -1,0 +1,31 @@
+/**Grids para intro de galeria, page shootings**/
+
+#introshooting {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "foto   titulo"
+        "foto   texto";
+
+}
+
+/**Áreas del grid**/
+/**Título**/
+h2 {
+    grid-area: titulo;
+    justify-self: center;
+}
+
+/**coctelera animada:**/
+img {
+    grid-area: foto;
+    padding: 5%;
+    width: 50%;
+    justify-self: center;
+}
+
+/**Texto**/
+p {
+    grid-area: texto;
+    justify-self: center;
+}

@@ -1,0 +1,5 @@
+/*Mixin aplicado a components: iframe e img*/
+
+@mixin ancho ($ancho) {
+    width: $ancho;
+}

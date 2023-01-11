@@ -1,0 +1,11 @@
+/*video youtube del inicio*/
+.iframe_principal {
+    display: flex;
+    justify-content: center;
+    background-color: $secondary;
+
+    & iframe {
+        @include ancho (70%);
+        /*Aplicación de mixin*/
+    }
+}

@@ -1,0 +1,15 @@
+/*Aplicado a galeria de imágenes page: shootings */
+
+.container-fluid {
+    background-color: $secondary;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        padding: 4%;
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
