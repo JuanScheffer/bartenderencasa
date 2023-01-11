@@ -12,84 +12,6 @@
   font-family: 'Nunito Sans', sans-serif;
   /*nexo fuentes html aplicada a toda la página*/ }
 
-/**Media desktop first--------------------------------------------------------------------------------------------**/
-/**Para Tablets, esta medida o valores menores:**/
-@media screen and (max-width: 1024px) {
-  header div {
-    width: 20%; }
-    header div img {
-      padding: 2%;
-      width: 100%; }
-  nav {
-    width: 80%; }
-  .navegacion li a {
-    padding: 2%;
-    border: solid #917b2c;
-    /*aplicación de map*/
-    font-size: 1rem; }
-    .navegacion li a:hover {
-      background-color: #917b2c;
-      /*aplicación de map*/
-      border: double 7px #e3826d;
-      /*aplicación de map*/
-      color: #04262b; }
-  /*Titulos sección principal*/
-  h1 {
-    padding: 3%;
-    font-size: 50px; }
-  h2 {
-    padding: 3%;
-    font-size: 45px; }
-  h3 {
-    padding: 3%;
-    font-size: 45px; }
-  main section p {
-    padding: 7%;
-    font-size: 20px; }
-  /*footer- pie de pagina*/
-  footer {
-    display: flex;
-    width: 100%; }
-    footer div {
-      width: 40%; }
-      footer div img {
-        padding: 5%;
-        width: 40%; }
-  .contacto {
-    font-size: 10px;
-    font-weight: bold; }
-  i {
-    font-size: 40px; } }
-
-/**Para Celulares, esta medida o valores menores:**/
-@media screen and (max-width: 479px) {
-  .navegacion li a {
-    padding: 1%;
-    border: solid #917b2c;
-    /*aplicación de map*/
-    font-size: 70%; }
-  /*Titulos sección principal*/
-  h1 {
-    font-size: 30px; }
-  h2 {
-    font-size: 20px; }
-  h3 {
-    font-size: 45px; }
-  main section p {
-    font-size: 3px; }
-  /*footer- pie de pagina*/
-  footer div {
-    width: 40%; }
-    footer div img {
-      padding: 2%;
-      width: 50%; }
-  .contacto {
-    font-size: 7px;
-    font-weight: bold; }
-  i {
-    font-size: 20px; } }
-
-/*-----------------------------------------------------------------------------------------------------------------*/
 /*Encabezado:logo y barra de navegación*/
 ul {
   list-style-type: none;
@@ -228,6 +150,114 @@ p {
   grid-area: texto;
   justify-self: center; }
 
+/**Grids para page servicios**/
+#catasPrivadas {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: "foto   titulo" "foto   texto"; }
+
+/**Áreas del grid**/
+h2 {
+  grid-area: titulo;
+  justify-self: center; }
+
+img {
+  grid-area: foto;
+  padding: 3%;
+  width: 70%;
+  justify-self: center; }
+
+p {
+  grid-area: texto;
+  justify-self: center; }
+
+#asesoramiento {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: "foto   titulo" "foto   texto"; }
+
+/**Áreas del grid**/
+h2 {
+  grid-area: titulo;
+  justify-self: center; }
+
+img {
+  grid-area: foto;
+  padding: 3%;
+  width: 70%;
+  justify-self: center; }
+
+p {
+  grid-area: texto;
+  justify-self: center; }
+
+#fiestasPrivadas {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: "foto   titulo" "foto   texto"; }
+
+/**Áreas del grid**/
+h2 {
+  grid-area: titulo;
+  justify-self: center; }
+
+img {
+  grid-area: foto;
+  padding: 3%;
+  width: 70%;
+  justify-self: center; }
+
+p {
+  grid-area: texto;
+  justify-self: center; }
+
+#ventas {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: "foto   titulo" "foto   texto"; }
+
+/**Áreas del grid**/
+h2 {
+  grid-area: titulo;
+  justify-self: center; }
+
+img {
+  grid-area: foto;
+  padding: 3%;
+  width: 70%;
+  justify-self: center; }
+
+p {
+  grid-area: texto;
+  justify-self: center; }
+
+/**Grids para page nosotros**/
+#nosotros {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: "titulo   titulo" "foto   texto"; }
+
+/**Áreas del grid**/
+h2 {
+  grid-area: titulo;
+  justify-self: center; }
+
+img {
+  grid-area: foto;
+  padding: 15%;
+  width: 100%;
+  justify-self: center; }
+
+p {
+  grid-area: texto;
+  justify-self: center;
+  padding: 5%; }
+
 #formulario {
   padding: 2%;
   color: #917b2c;
@@ -277,3 +307,110 @@ h3 {
   color: #e3826d;
   /*aplicación de map*/
   font: bold; }
+
+/**Media desktop first--------------------------------------------------------------------------------------------**/
+/**Para Tablets, esta medida o valores menores:**/
+@media screen and (max-width: 1024px) {
+  header div {
+    width: 20%; }
+    header div img {
+      padding: 2%;
+      width: 100%; }
+  nav {
+    width: 80%; }
+  .navegacion li a {
+    padding: 2%;
+    border: solid #917b2c;
+    /*aplicación de map*/
+    font-size: 1rem; }
+    .navegacion li a:hover {
+      background-color: #917b2c;
+      /*aplicación de map*/
+      border: double 7px #e3826d;
+      /*aplicación de map*/
+      color: #04262b; }
+  /*Titulos sección principal*/
+  h1 {
+    padding: 3%;
+    font-size: 3rem; }
+  h2 {
+    padding: 3%;
+    font-size: 2rem; }
+  h3 {
+    padding: 3%;
+    font-size: 2rem; }
+  main section p {
+    padding: 7%;
+    font-size: 1.5rem; }
+  #formulario {
+    font-size: 1rem; }
+  #introshooting p {
+    font-size: 1rem; }
+  #catasPrivadas p {
+    font-size: 1rem; }
+  #asesoramiento p {
+    font-size: 1rem; }
+  #fiestasPrivadas p {
+    font-size: 1rem; }
+  #ventas p {
+    font-size: 1rem; }
+  #nosotros p {
+    font-size: 0.7rem; }
+  /*footer- pie de pagina*/
+  footer {
+    display: flex;
+    width: 100%; }
+    footer div {
+      width: 40%; }
+      footer div img {
+        padding: 5%;
+        width: 40%; }
+  .contacto {
+    font-size: 10px;
+    font-weight: bold; }
+  i {
+    font-size: 40px; } }
+
+/**Para Celulares, esta medida o valores menores:**/
+@media screen and (max-width: 479px) {
+  .navegacion li a {
+    padding: 1%;
+    border: solid #917b2c;
+    /*aplicación de map*/
+    font-size: 70%; }
+  /*Titulos sección principal*/
+  h1 {
+    font-size: 1.5rem; }
+  h2 {
+    font-size: 1rem; }
+  h3 {
+    font-size: 1rem; }
+  main section p {
+    font-size: 1rem; }
+  #formulario {
+    font-size: 0.75rem; }
+  #introshooting p {
+    font-size: 0.5rem; }
+  #catasPrivadas p {
+    font-size: 0.5rem; }
+  #asesoramiento p {
+    font-size: 0.5rem; }
+  #fiestasPrivadas p {
+    font-size: 0.5rem; }
+  #ventas p {
+    font-size: 0.5rem; }
+  #nosotros p {
+    font-size: 0.5rem; }
+  /*footer- pie de pagina*/
+  footer div {
+    width: 40%; }
+    footer div img {
+      padding: 2%;
+      width: 50%; }
+  .contacto {
+    font-size: 7px;
+    font-weight: bold; }
+  i {
+    font-size: 1.5rem; } }
+
+/*-----------------------------------------------------------------------------------------------------------------*/

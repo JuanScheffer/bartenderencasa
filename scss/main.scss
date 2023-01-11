@@ -2,7 +2,6 @@
 @import "./utilities/variables";
 @import "./utilities/mixings";
 @import "./normalize/reset.scss";
-@import "./views/queries.scss";
 @import "./general/header.scss";
 @import "./general/footer";
 @import "./general/main_pages";
@@ -12,3 +11,4 @@
 @import "./components/iframes";
 @import "./components/images";
 @import "./components/titles";
+@import "./views/queries";

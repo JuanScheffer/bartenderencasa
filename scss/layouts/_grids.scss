@@ -29,3 +29,144 @@ p {
     grid-area: texto;
     justify-self: center;
 }
+
+/**Grids para page servicios**/
+
+#catasPrivadas {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "foto   titulo"
+        "foto   texto";
+
+}
+
+/**Áreas del grid**/
+h2 {
+    grid-area: titulo;
+    justify-self: center;
+}
+
+img {
+    grid-area: foto;
+    padding: 3%;
+    width: 70%;
+    justify-self: center;
+}
+
+p {
+    grid-area: texto;
+    justify-self: center;
+}
+
+#asesoramiento {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "foto   titulo"
+        "foto   texto";
+
+}
+
+/**Áreas del grid**/
+h2 {
+    grid-area: titulo;
+    justify-self: center;
+}
+
+img {
+    grid-area: foto;
+    padding: 3%;
+    width: 70%;
+    justify-self: center;
+}
+
+p {
+    grid-area: texto;
+    justify-self: center;
+}
+
+
+#fiestasPrivadas {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "foto   titulo"
+        "foto   texto";
+
+}
+
+/**Áreas del grid**/
+h2 {
+    grid-area: titulo;
+    justify-self: center;
+}
+
+img {
+    grid-area: foto;
+    padding: 3%;
+    width: 70%;
+    justify-self: center;
+}
+
+p {
+    grid-area: texto;
+    justify-self: center;
+}
+
+#ventas {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "foto   titulo"
+        "foto   texto";
+
+}
+
+/**Áreas del grid**/
+h2 {
+    grid-area: titulo;
+    justify-self: center;
+}
+
+img {
+    grid-area: foto;
+    padding: 3%;
+    width: 70%;
+    justify-self: center;
+}
+
+p {
+    grid-area: texto;
+    justify-self: center;
+}
+
+/**Grids para page nosotros**/
+
+#nosotros {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "titulo   titulo"
+        "foto   texto";
+
+}
+
+/**Áreas del grid**/
+h2 {
+    grid-area: titulo;
+    justify-self: center;
+}
+
+img {
+    grid-area: foto;
+    padding: 15%;
+    width: 100%;
+    justify-self: center;
+}
+
+p {
+    grid-area: texto;
+    justify-self: center;
+    padding: 5%;
+}

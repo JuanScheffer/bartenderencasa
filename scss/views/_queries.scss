@@ -38,27 +38,73 @@
     /*Titulos sección principal*/
     h1 {
         padding: 3%;
-        font-size: 50px;
+        font-size: 3rem;
+        ;
     }
 
     h2 {
         padding: 3%;
-        font-size: 45px;
+        font-size: 2rem;
     }
 
     h3 {
         padding: 3%;
-        font-size: 45px;
+        font-size: 2rem;
     }
 
     main {
         section {
             p {
                 padding: 7%;
-                font-size: 20px;
+                font-size: 1.5rem;
             }
         }
     }
+
+    #formulario {
+        font: {
+            size: 1rem;
+        }
+
+    }
+
+    #introshooting {
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    #catasPrivadas {
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    #asesoramiento {
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    #fiestasPrivadas {
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    #ventas {
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    #nosotros {
+        p {
+            font-size: 0.7rem;
+        }
+    }
+
+
 
     /*footer- pie de pagina*/
 
@@ -108,24 +154,69 @@
 
     /*Titulos sección principal*/
     h1 {
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     h3 {
-        font-size: 45px;
+        font-size: 1rem;
     }
 
     main {
         section {
             p {
-                font-size: 3px;
+                font-size: 1rem;
             }
         }
     }
+
+
+    #formulario {
+        font: {
+            size: 0.75rem;
+        }
+
+    }
+
+    #introshooting {
+        p {
+            font-size: 0.5rem;
+        }
+    }
+
+    #catasPrivadas {
+        p {
+            font-size: 0.5rem;
+        }
+    }
+
+    #asesoramiento {
+        p {
+            font-size: 0.5rem;
+        }
+    }
+
+    #fiestasPrivadas {
+        p {
+            font-size: 0.5rem;
+        }
+    }
+
+    #ventas {
+        p {
+            font-size: 0.5rem;
+        }
+    }
+
+    #nosotros {
+        p {
+            font-size: 0.5rem;
+        }
+    }
+
 
     /*footer- pie de pagina*/
 
@@ -146,7 +237,7 @@
     }
 
     i {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
 }
