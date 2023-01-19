@@ -7,7 +7,8 @@ footer {
     align-items: center;
 
     div {
-        width: 40%;
+        width: 33%;
+
 
         a {
             display: flex;
@@ -29,6 +30,11 @@ footer {
     align-items: flex-start;
     padding: 3%;
     color: map-get($color_detalle, dorado);
+
+    P {
+        padding: 0%
+    }
+
     /*aplicación de map*/
 
     font: {

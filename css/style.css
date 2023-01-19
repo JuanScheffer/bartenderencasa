@@ -66,7 +66,7 @@ footer {
   background-color: #04262b;
   align-items: center; }
   footer div {
-    width: 40%; }
+    width: 33%; }
     footer div a {
       display: flex;
       justify-content: center; }
@@ -85,6 +85,8 @@ footer {
   /*aplicación de map*/
   font-size: 1.5rem;
   font-style: italic; }
+  .contacto P {
+    padding: 0%; }
 
 /*Logos redes sociales*/
 .redes_sociales {
@@ -240,6 +242,7 @@ p {
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-rows: 30% 70%;
+  align-items: center;
   grid-template-areas: "titulo   titulo" "foto   texto"; }
 
 /**Áreas del grid**/
@@ -256,7 +259,7 @@ img {
 p {
   grid-area: texto;
   justify-self: center;
-  padding: 5%; }
+  padding: 10%; }
 
 #formulario {
   padding: 2%;
@@ -269,7 +272,8 @@ p {
 .iframe_principal {
   display: flex;
   justify-content: center;
-  background-color: #004242; }
+  background-color: #004242;
+  height: 100vh; }
   .iframe_principal iframe {
     width: 70%;
     /*Aplicación de mixin*/ }
@@ -329,6 +333,9 @@ h3 {
       border: double 7px #e3826d;
       /*aplicación de map*/
       color: #04262b; }
+  /*Iframe sección principal index*/
+  .iframe_principal {
+    height: 50vh; }
   /*Titulos sección principal*/
   h1 {
     padding: 3%;
@@ -378,6 +385,9 @@ h3 {
     border: solid #917b2c;
     /*aplicación de map*/
     font-size: 70%; }
+  /*Iframe sección principal index*/
+  .iframe_principal {
+    height: 50vh; }
   /*Titulos sección principal*/
   h1 {
     font-size: 1.5rem; }
@@ -399,9 +409,35 @@ h3 {
     font-size: 0.5rem; }
   #ventas p {
     font-size: 0.5rem; }
-  #nosotros p {
-    font-size: 0.5rem; }
-  /*footer- pie de pagina*/
+  #nosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 50% 20%;
+    grid-row-gap: 5vh;
+    align-items: center;
+    grid-template-areas: "titulo" "foto" "texto"; }
+    #nosotros h2 {
+      grid-area: titulo;
+      justify-self: center; }
+    #nosotros img {
+      grid-area: foto;
+      padding: 0%;
+      width: 50vh;
+      justify-self: center; }
+    #nosotros p {
+      grid-area: texto;
+      justify-self: center;
+      padding: 5%;
+      font-size: 0.5rem; }
+  /*
+    #nosotros {
+        p {
+            font-size: 0.5rem;
+        }
+    }
+
+
+    /*footer- pie de pagina*/
   footer div {
     width: 40%; }
     footer div img {

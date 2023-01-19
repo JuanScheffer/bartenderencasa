@@ -147,6 +147,7 @@ p {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 30% 70%;
+    align-items: center;
     grid-template-areas: "titulo   titulo"
         "foto   texto";
 
@@ -168,5 +169,5 @@ img {
 p {
     grid-area: texto;
     justify-self: center;
-    padding: 5%;
+    padding: 10%;
 }
